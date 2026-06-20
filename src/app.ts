@@ -3,6 +3,7 @@
 import express, { Express } from 'express';
 import { userRouter } from './routers/user.router.js';
 import { errorHandler } from './middlewares/error-handler.js';
+import { ApiError } from './utils/api-error.js';
 
 const app: Express = express();
 
