@@ -105,3 +105,4 @@ export async function findExceptionsByUserInRange(
         orderBy: { date: "asc" },
     });
 }
+
